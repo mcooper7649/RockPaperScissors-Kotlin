@@ -27,4 +27,9 @@ fun main(){
         else -> "Computer"
      }
 
+    if (winner == "Tie"){
+        println("It's a Tie")
+    }  else {
+        println("$winner won!!")
+    }
     }
